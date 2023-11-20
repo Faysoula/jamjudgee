@@ -17,3 +17,11 @@ Here's how to set up JamJudgee:
 
 ```bash
 git clone https://github.com/Faysoula/jamjudgee.git
+
+### Install Dependencies
+
+Then install the necessary dependencies:
+
+```bash
+
+npm install
