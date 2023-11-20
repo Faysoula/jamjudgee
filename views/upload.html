@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Album</title>
+</head>
+
+<body>
+
+    <form action="/api/album/insertalbum" method="post" enctype="multipart/form-data">
+        <label for="album_name">Album Name:</label>
+        <input type="text" id="album_name" name="album_name" required><br><br>
+
+        <label for="album_cover">Album Cover:</label>
+        <input type="file" id="album_cover" name="album_cover" required><br><br>
+
+        <label for="album_date">Release Date:</label>
+        <input type="date" id="album_date" name="album_date" required><br><br>
+
+        <input type="submit" value="Upload Album">
+    </form>
+
+</body>
+
+</html>
